@@ -1,0 +1,20 @@
+# Ignore IDE/project config
+.idea/
+
+
+# Ignore runtime & temporary files
+.gradio/
+__pycache__/
+*.pyc
+*.pyo
+*.log
+
+# Ignore generated vectorstore (FAISS index)
+vectorstore/
+
+# Ignore uploaded docs content but keep folder
+uploaded_docs/*
+!uploaded_docs/.gitkeep
+
+# Ignore temporary reference files
+*_adgm_refs/
